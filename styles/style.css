@@ -157,6 +157,10 @@
   appearance: none;
 }
 
+.card__like-button {
+  width: 160px;
+}
+
 .button:focus {
   outline: none;
 }
@@ -243,7 +247,6 @@
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
   line-height: 1.5;
   text-transform: uppercase;
-  overflow: hidden;
   max-inline-size: clamp(21.313rem, 20.159rem + 4.923vw, 22.313rem);
 }
 
@@ -262,6 +265,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  font-size: 14px;
 }
 
 .modal__icon {
